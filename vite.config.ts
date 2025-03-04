@@ -7,10 +7,6 @@ import eslint from "vite-plugin-eslint";
 
 export default defineConfig({
   plugins: [react(), eslint()],
-  server: {
-    port: parseInt(process.env.PORT || "3000"),
-    host: "0.0.0.0",
-  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
