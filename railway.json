@@ -1,0 +1,13 @@
+{
+    "build": {
+      "command": "npm install && npm run build",
+      "output": "dist"
+    },
+    "routes": {
+      "frontend": {
+        "path": "/",
+        "static": true,
+        "directory": "dist"
+      }
+    }
+  }

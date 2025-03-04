@@ -1,0 +1,20 @@
+{
+  "welcome": "Dobrodošli na Baitul Mal",
+  "SUCCESS": "Uspješno",
+  "FAILED": "Neuspješno",
+  "PARTIAL_SUCCESS": "Djelimično uspješno",
+  "POSTPONED": "Odloženo",
+  "PAUSED": "Pauzirano",
+  "STOPPED": "Zaustavljeno",
+  "ONGOING": "U toku",
+  "NEWLY_CREATED": "Novi projekat",
+  "CREATED": "Kreirano",
+  "MODIFIED": "Modifikovano",
+  "PROJECT_NEVER_MODIFIED": "Projekat nikada nije modifikovan",
+  "NO_PROJECTS_FOUND": "Nema pronađenih projekata",
+  "ADD_COORDINATORS": "Dodaj koordinatore",
+  "ASSIGNED": "Dodeljeno",
+  "PENDING": "Na čekanju",
+  "RESERVED": "Rezervisano",
+  "SPENT": "Potrošeno"
+}

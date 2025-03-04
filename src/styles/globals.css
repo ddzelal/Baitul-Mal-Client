@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    --chart-1: 210 90% 60%;
+    --chart-2: 0 85% 55%;
+    --chart-3: 210 90% 60%;
+
+    --violet: 240 30% 40%; /* Suptilna nijansa koja se uklapa sa primary/secondary */
+    --violet-hover: 240 30% 35%; /* Malo tamnija za hover */
+    --violet-foreground: 0 0% 100%;
+  }
+
+  .dark {
+    --background: 220 13% 18%;
+    --foreground: 0 0% 98%;
+
+    --card: 220 13% 20%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 220 13% 20%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 220 13% 18%;
+
+    --secondary: 219 14% 28%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 219 14% 28%;
+    --muted-foreground: 0 0% 80%;
+
+    --accent: 219 14% 28%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 13% 25%;
+    --input: 220 13% 25%;
+    --ring: 219 14% 35%;
+
+    --sidebar-background: 220 13% 20%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 164 95% 43%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 219 14% 28%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 220 13% 25%;
+    --sidebar-ring: 164 95% 50%;
+
+    --chart-1: 164 95% 43%;
+    --chart-2: 10 80% 60%;
+    --chart-3: 40 100% 50%;
+    --chart-4: 190 90% 50%;
+    --chart-5: 280 90% 50%;
+
+    --violet: 240 30% 60%; /* Svetlija varijanta za dark mode */
+    --violet-hover: 240 30% 55%;
+    --violet-foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html,
+  body {
+    @apply overflow-x-hidden;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .scrollable-container {
+    @apply overflow-x-auto;
+  }
+}
